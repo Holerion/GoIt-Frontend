@@ -1,0 +1,69 @@
+:root{
+    --main-color:#FFFFFF;
+    --second-color:#F5F5F5;
+    --blue-color:#18A0FB;
+    --darc-color:#000000;
+    --darc-op-color:rgba(0, 0, 0, 0.8);
+}
+
+body{
+background-color:var(--main-color);
+color: var(--darc-color);
+}
+.list{
+    list-style: none;
+}
+
+.site-nav .link{
+color: var(--blue-color);
+transition: 0.2s;
+}
+.site-nav .link:hover,
+.site-nav .link:focus
+{
+color: var(--darc-color);
+transition: 0.5s;
+}
+/* Hero */
+.hero-title{
+    color: var(--darc-color);
+}
+
+
+
+/* Section */
+.section-title{
+    color: var(--darc-color);
+}
+
+
+/* Faetures */
+.features-list .title{
+    color: var(--darc-color);
+}
+
+/* Examples */
+
+.work-list{
+    color: var(--darc-color);
+}
+
+/* button */
+.button{
+    color: var(--darc-color);
+    background-color: var(--main-color);
+
+
+}
+
+.button.primary{
+    color: var(--main-color);
+    background-color: var(--blue-color);
+    
+}
+
+.button.secondary{
+    color: var(--blue-color);
+    background-color: var(--main-color);
+    
+}
