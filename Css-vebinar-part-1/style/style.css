@@ -53,3 +53,21 @@ body{
         background-color: var(--white-color);
         
     }
+
+
+
+
+
+
+
+
+/* Portfolio */
+.nav-filters .button{
+    background-color: var(--third-color);
+    color: var(--text-color);
+}
+.nav-filters .button:hover,
+.nav-filters .button:focus{
+    background-color: var(--acent-color-color);
+    color: var(--white-color);
+}
