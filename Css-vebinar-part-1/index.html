@@ -2,40 +2,47 @@
 <html lang="ru">
   <head>
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./style/style.css">
   </head>
   <body>
     <header>
       <nav>
-        <a href="/"> Web Studio</a>
+        <a href="/" class="logo"> Web Studio</a>
 
-        <ul>
-          <li>Студия</li>
-          <li>Портфолио</li>
-          <li>Контакты</li>
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
-        <ul>
-          <li>
-            <img src="./img/envelope.svg" alt="" />
-            info@devstudio.com
+
+        <ul class="fast-contact list">
+          <li >
+            <a href="" class="link">
+              <img src="./img/envelope.svg" alt="" />
+              info@devstudio.com
+            </a>
           </li>
           <li>
-            <img src="./img/Vector.svg" alt="" />
-            +38 096 111 11 11
+            <a href="" class="link">
+              <img src="./img/Vector.svg" alt="" />
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </nav>
     </header>
-    <section>
-      <h1>Эффективные решения для вашего бизнеса</h1>
-      <a href="">Заказать услугу</a>
+
+    <section class="hero">
+      <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+      <a href="" class="button primary">Заказать услугу</a>
     </section>
 
-    <section>
-      <h2>Особенности</h2>
+    <section class="section">
+      <h2  class="section-title">Особенности</h2>
       <ul>
         <li>
           <img src="./img/tarelka.svg" alt="" />
-          <h3>Внимание к деталям</h3>
+          <h3 class="title">Внимание к деталям</h3>
           <p>
             Идейные соображения, а также начало повседневной работы по
             формированию позиции.
@@ -43,7 +50,7 @@
         </li>
         <li>
           <img src="./img/clock.svg" alt="" />
-          <h3>Пунктуальность</h3>
+          <h3 class="title">Пунктуальность</h3>
           <p>
             Задача организации, в особенности же рамки и место обучения кадров
             влечет за собой.
@@ -51,7 +58,7 @@
         </li>
         <li>
           <img src="./img/Laptop.svg" alt="" />
-          <h3>Планирование</h3>
+          <h3 class="title">Планирование</h3>
           <p>
             Равным образом консультация с широким активом в значительной степени
             обуславливает.
@@ -59,7 +66,7 @@
         </li>
         <li>
           <img src="./img/Spaceman.svg" alt="" />
-          <h3>Современные технологии</h3>
+          <h3 class="title">Современные технологии</h3>
           <p>
             Значимость этих проблем настолько очевидна, что реализация плановых
             заданий.
@@ -68,8 +75,8 @@
       </ul>
     </section>
 
-    <section>
-      <h2>Чем мы занимаемся</h2>
+    <section class="section">
+      <h2 class="section-title">Чем мы занимаемся</h2>
       <ul>
         <li>
           <img src="./img/laptop.png" alt="" width="370" />
@@ -86,8 +93,8 @@
       </ul>
     </section>
 
-    <section>
-      <h2>Наша команда</h2>
+    <section class="section">
+      <h2 class="section-title">Наша команда</h2>
       <ul>
         <li>
           <img src="./img/nikolay.jpg" alt="" width="270" />
@@ -136,8 +143,8 @@
       </ul>
     </section>
 
-    <section>
-      <h2>Постоянные клиенты</h2>
+    <section class="section">
+      <h2 class="section-title">Постоянные клиенты</h2>
       <ul>
         <li><img src="./img/Rectangle.svg" alt="" /></li>
         <li><img src="./img/Rectangle.svg" alt="" /></li>

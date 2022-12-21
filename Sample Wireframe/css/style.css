@@ -52,8 +52,6 @@ transition: 0.5s;
 .button{
     color: var(--darc-color);
     background-color: var(--main-color);
-
-
 }
 
 .button.primary{
