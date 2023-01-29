@@ -18,6 +18,16 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1440px;
+
+  
+  outline: 1px solid tomato;
 }
 
 .site-nav .link {
@@ -26,38 +36,57 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 1.2;
-
-  transition: 0.2s;
+  
   text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--darc-color);
-  transition: 0.5s;
 }
 /* Hero */
+.hero {
+  text-align: center;
+}
+
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+    
   color: var(--darc-color);
   font-weight: 400;
   font-size: 56px;
   line-height: 1.42;
-  text-align: center;
+
 }
 
 /* Section */
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
+
+.section.no-pading {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .section-title {
   color: var(--darc-color);
   font-weight: 400;
   font-size: 48px;
   line-height: 1.5;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 60px;
 }
 .section-description{
 font-size: 36px;
 line-height: 1.39;
 text-align: center;
 color: var(--darc-op-color);
+margin-top: 0;
+margin-bottom: 80px;
 }
 
 /*  Examples*/
@@ -67,6 +96,8 @@ color: var(--darc-op-color);
 /* Examples and Faetures*/
 .features-list .title ,
 .work-list .title {
+  margin-top: 0;
+  margin-bottom: 24px;
   color: var(--darc-color);
 
   font-weight: 700;
@@ -74,9 +105,29 @@ color: var(--darc-op-color);
   line-height: 1.5;
   
 }
+.features-list p{
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+/* Works */
+.work-list > .item{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.work-list > .item:nth-child(even){
+  background-color: var(--second-color);
+}
+
 
 /* button */
 .button {
+  border-radius: 6px;
+  padding: 11px 34px;
+
+  min-width: 130px;
+
+  display: inline-block;
   color: var(--darc-color);
   background-color: var(--main-color);
 
@@ -85,14 +136,20 @@ color: var(--darc-op-color);
   line-height: 1.2;
   
   text-decoration: none;
+  text-align: center;
+
+  border:1px solid transparent ;
 }
 
 .button.primary {
   color: var(--main-color);
   background-color: var(--blue-color);
+
 }
 
 .button.secondary {
   color: var(--blue-color);
-  background-color: var(--main-color);
+  background-color: var(--main-color);  
+
+  border-color: var(--blue-color) ;
 }
